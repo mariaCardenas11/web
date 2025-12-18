@@ -1,0 +1,188 @@
+[index.html](https://github.com/user-attachments/files/24246306/index.html)
+<!DOCTYPE html>
+<html lang="es-ES">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Los Diseños de Mery</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+
+    <nav id="menu">
+        <ul>
+            <li class="has-sub">
+                <a href="#">Sobre Nosotros</a>
+                <ul>
+                    <li class="has-sub">
+                    <a href="#" id="catalogo-link">Catálogo</a>
+                        <ul>
+                            <li><a href="#llaveros">Llaveros</a></li>
+                            <li><a href="#flores-eternas">Flores eternas</a></li>
+                            <li><a href="#peluches">Peluches</a></li>
+                            <li><a href="#complementos">Complementos</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+
+            <li class="has-sub">
+                <a href="#">Información de pedidos</a>
+                <ul>
+                    <li><a href="#materiales">Nuestros materiales</a></li>
+                    <li><a href="#condiciones-reserva">Condiciones de reserva</a></li>
+                    <li><a href="#tiempos-espera">Tiempos de espera</a></li>
+                </ul>
+            </li>
+
+            <li class="has-sub">
+                <a href="#">Compra</a>
+                <ul>
+                    <li><a href="compra">Realizar pedido</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- CONTENEDOR TEXTO + IMAGEN -->
+    <div class="cabecera">
+		<img src="img/maria/1.png" alt="logo" class="logo">
+        <div class="texto">
+            <h1 id="titulo">Los Diseños de Mery</h1>
+            <p class="eslogan">Donde tus ideas se hacen achuchables</p>
+			
+        </div>
+		
+        </div>
+        
+    </div>
+	
+	<body> <!-- comienza la página tal y como la ve el usuario -->
+	
+
+
+	
+
+
+<h2 id="info">Sobre Nosotros:</h2>
+<p>Los Diseños de Mery surge por la necesidad de buscar un escape a los malos pensamientos, transformándolos en pequeños resquicios de paz.  Cada uno de nuestros peluches, amigurumis, llaveros… se crearon transformando la angustia en esperanza. Con esa idea en mente, pasamos de tener cosas malas cerca a tener un compañero de batalla.
+
+</p>
+
+<h2 section id="catalogo"> Catalogo</h2>
+<h3 section id="llaveros"> Llaveros </h3>
+<h4 section id="tortuguitas"> Tortuguitas</h4>
+<div class="llavero-tortuga">
+<img src= 'img/maria/tortuguitasLlavero.png' alt= 'tortugas' id="tortugas"  class="clickable-image">
+<div class="parrafo-tortuga"><p id="descripcion"> Llavero de tortugas a dos colores con caparazon acolchado.</p>
+<p id="precio"> Precio: 3€ </p>
+    </div>
+</div>
+<p>
+    <h4 section id="ajolote">Ajolote</h4>
+    <div class="llavero-ajolote">
+        <img src= 'img/maria/ajoloteLlaverofondo.png' alt= 'foto-ajolote' class="clickable-image">
+    <p id="descripcion-ajolote"> Descripcion: Llavero de ajolote fluffy personalizable </p>
+
+<p section id=" precio-ajolote"> Precio: 6€ </p>
+</div>
+<div class="parrafo-ajolote">
+    <p id="descripcion-ajolote"> Descripcion: Llavero de ajolote fluffy personalizable </p>
+
+<p section id=" precio-ajolote"> Precio: 6€ </p>
+</div>
+
+
+<h3 section id="flores-eternas"> Flores eternas </h3>
+<h4 section is=" lavanda">Lavanda</h4>
+<p>
+    <div class="parrafo-lavanda">
+<img src= 'img/maria/lavandafondo.png' alt= 'lavanda' class="clickable-image">
+<p> Descripcion: Lavanda hecha en algodon 100% (posibilidad de hacerla olorosa). </p>
+<p> Precio: 3€/unidad. </p>
+
+</p>
+</div>
+<h3 section id="peluches"> Peluches </h3>
+<p>
+    <h4 section id="unicornio">Unicornio</h4>
+    <div class="peluche-unicornio">
+<img src= 'img/maria/unicornioeditado.png' alt= 'unicornio' class="clickable-image">
+
+<p> Descripcion: Unicornio de peluche de 20cm realizado en chenilla blanca super suave, relleno hipoalergénico. 100% personalizable (dependiendo los cambios podría incrementar el precio). </p>
+<p> Precio: 30€ </p>
+</div>
+</p>
+
+<p>
+    <h4 section id=" vaquita">Vaquita</h4>
+    <div class="peluche-vaquita"> 
+<img src= 'img/maria/vaquitafondo.png' alt= 'vaquita' class="clickable-image">
+<p> Descripcion:Vaquita de peluche de 20cm (aprox) realizado en chenilla super suave, relleno hipoalergénico. 100% personalizable (dependiendo los cambios podría incrementar el precio). </p>
+<p> Precio: 25€ </p>
+</div>
+</p>
+
+<p>
+    <h4 section id=" baymax">Baymax</h4>
+    <div class="peluche-baymax">
+<img src= 'img/maria/baymax.png' alt= 'baymax' class="clickable-image">
+<p> Descripcion:Baymax de peluche de 20cm (aprox) realizado en chenilla super suave, relleno hipoalergénico. 100% personalizable (dependiendo los cambios podría incrementar el precio). </p>
+<p> Precio: 25€ </p>
+</div>
+</p>
+<p>
+<h3> Complementos</h3>
+</p>
+<h4 section id="gorro-bebe">Gorro de bebe</h4>
+<div class="gorro-bebe">
+<img src= 'img/maria/bollitoGorro.png' alt= 'Gorro de bebe' class="clickable-image">
+</div>
+<p> Descripcion: Gorrito de bebe en hilo de algodón lavable a máquina con pompón desmontable para facilitar el cuidado del mismo.
+<p> Precio: 25€ </p>
+
+<h4 section id="funda-ipods">Funda para Ipods</h4>
+<div class="funda-ipods">   
+<img src= 'img/maria/fundaIpodsfondo.png' alt= 'fundaIpods' class="clickable-image">
+
+<p> Descripcion: Funda para Ipods en hilo de algodon personalizable. 
+<p> Precio: 5€ </p>
+ </div >
+
+
+
+<h2>Informacion de pedidos</h2>
+<p></p>
+
+<h3 section id="nuestros-materiales">Nuestros materiales</h3>
+<p>Todas las lanas e hilos con suaves y respetuosos con la piel. Rellenos con algodón hipoalergénico, lavable en la lavadora. Los ojos son de seguridad reforzados para evitar sustos (aun asi, como todo en esta vida, no quiere decir que no se puedan soltar). </p>
+<p>Nos gusta pensar que nuestros productos puedan satisfacer a todos nuestros clientes de forma pareja. Todos los peluches están realizados con el mismo tipo de lana, relleno, ojos y cosidos con el mismo tipo de hilo. La calidad es nuestra máxima, no vendemos nada que no querríamos en nuestra casa.</p>
+<h3 section id="condiciones-de-reserva">Condiciones de reserva</h3>
+<p>
+Para formalizar las reservas pedimos como fianza el 50% del producto y el otro 50% al finalizarlo.
+La fianza en ningún caso será reembolsable
+</p>
+<h3 section id="tiempos-de-espera"> Tiempos de espera </h3>
+<p> Los tiempos de espera pueden variar dependiendo del diseño, la lista de espera y las condiciones de envío. Procuramos que todos los peluches se puedan enviar dos semanas después de la reserva. En caso contrario, se informaría al cliente para que decida si quiere formalizar dicha reserva, recomendamos siempre dejar margen de maniobra suficiente. Dependiendo del envío este puede tardar de 2 a 10 días hábiles (Estos tiempos pueden variar en diversas temporadas).</p>
+
+
+
+
+<footer> Si tienes dudas contacta con nosotros, estamos deseando ayudarte.
+<br>
+<a href="mailto:losdiseñosdemery@losdiseñosdemery.cool">envía a un e-mail</a>
+<br>
+<a href="tel:654987321">654987321</a>
+<br>
+<a href="https://wa.me/34654987321?text=hola">Envía por Whatsapp</a>
+</footer>
+<script src="js.js"></script>
+
+
+	</body> <!-- fin de <body> -->
+
+
+</html> <!-- fin de <html> -->
+
+
